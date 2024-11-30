@@ -1,0 +1,17 @@
+.pokemon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Espaciado entre imágenes */
+}
+
+.pokemon-image {
+  width: 250px; /* Aumenta el ancho a 250 píxeles */
+  height: auto; /* Mantiene la proporción */
+  border-radius: 10px; /* Bordes redondeados (opcional) */
+  transition: transform 0.2s; /* Efecto de transición para hover */
+}
+
+.pokemon-image:hover {
+  transform: scale(1.2); /* Aumenta el tamaño al 120% al pasar el mouse */
+}
