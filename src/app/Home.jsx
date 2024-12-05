@@ -52,8 +52,7 @@ function Home() {
             <>
               {/* Usuario registrado */}
               <p className="home_text">¡Continuemos con tu viaje !Entrenador</p>
-              <p>
-                Ve a tu{" "}
+              <p className="home_text1"> Ve a tu{" "}
                 <Link className="home_link" to="/pokedex">
                   Pokédex
                 </Link>

@@ -9,7 +9,7 @@
 .cover {
     position: relative;
     width: 900px;
-    height: 600px;
+    height: 550px;
     background-image: url('poke2.png'); /* Ruta relativa de tu imagen */
     background-size: cover;
     background-position: center;
@@ -41,7 +41,7 @@
 .home_link {
     color:rgb(226, 55, 55);
     text-align: center;
-    font-weight: 8px;
+     font-size: large;
     font-family: Arial, sans-serif;
     width: 10px;
     height: 10px;
@@ -68,4 +68,12 @@ border-radius: 4px
     font-size: xx-large;
     color: rgb(180, 24, 24);
     font-weight: bold;
+}
+
+.home_text1{
+    color: rgb(20, 16, 16);
+    font-size: large;
+    text-decoration-line: underline;
+    
+
 }
