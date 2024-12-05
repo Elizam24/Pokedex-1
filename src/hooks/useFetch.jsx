@@ -16,4 +16,4 @@ return [data,dataFetch,loading,error]
 
 
 }
-export {useFetch}
+export { useFetch }

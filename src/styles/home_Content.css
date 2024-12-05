@@ -1,0 +1,71 @@
+.home {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    color: rgb(25, 29, 27);
+
+
+}
+.cover {
+    position: relative;
+    width: 900px;
+    height: 600px;
+    background-image: url('poke2.png'); /* Ruta relativa de tu imagen */
+    background-size: cover;
+    background-position: center;
+}
+
+.home_input {
+    background-color: #8f7272;
+    border: 1px solid #ccc;
+    padding: .10em 10em;
+    border-radius: 8px 0 0 8px;
+
+}
+
+.home_btn {
+    background-color: rgb(208, 73, 73); 
+    border: transparent;
+    padding: 0.5em 1em; 
+    border-radius: 0 4px 4px 0; 
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out; 
+}
+
+.home_btn:hover{
+    background-color: rgb(224, 190, 190);
+     
+}
+
+.home_link {
+    color:rgb(226, 55, 55);
+    text-align: center;
+    font-weight: 8px;
+    font-family: Arial, sans-serif;
+    width: 10px;
+    height: 10px;
+
+}
+.btn--radius {
+border-radius: 4px
+}
+
+
+ .home_title {
+    text-align: center;
+    color: rgb(19, 19, 26);
+    font-size: 2em;
+    margin-bottom: 1em;
+
+
+}
+ 
+.home_text {
+    margin-bottom:.10em;
+    text-decoration-line: overline;
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(180, 24, 24);
+    font-weight: bold;
+}

@@ -1,5 +1,6 @@
 import { IoSearch } from "react-icons/io5";
 import {useRef} from 'react'
+import '../../styles/search.css';
 
 function Search (handleSearch) {
   const inputRef =useRef ()
@@ -15,7 +16,10 @@ function Search (handleSearch) {
    <input type="text" placeholder='Buscar un pokemon'
   ref= {inputRef}/>
   </div>
-    <button onClick={onSearch}>Buscar</button>
+
+    <button onClick={onSearch}
+    className="search_btn"
+    >Buscar</button>
  </div>
   )
 }

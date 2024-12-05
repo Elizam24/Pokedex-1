@@ -1,12 +1,15 @@
 import PokemonCard from "./PokemonCard"
-
-function PokemonList (prop) {
+//import '.
+function PokemonList ({pokemons,isFiltering}) {
+    
 return (
     <>
    {
-    prop.pokemons?.map(pokemon => {
-        return( 
-     <PokemonCard key={pokemon?.name} url={pokemon?.url}/>
+    pokemons?.map(pokemon => {
+     const pokemonName = isFiltering ? pokemon.pokemon.name : pokemon.name
+      const pokemonUrl = isFiltering ? pokemon.pokemon.url : pokemon.url
+        return(
+       <PokemonCard key={pokemonName} url={pokemonUrl}/>
        )
         
     })
@@ -15,7 +18,7 @@ return (
 
  </>
 
-)
+) 
 
 }
 export default PokemonList
