@@ -18,8 +18,8 @@ function Search (handleSearch) {
   </div>
 
     <button onClick={onSearch}
-    className="search_btn"
-    >Buscar</button>
+    className="search_btn" >
+      Buscar</button>
  </div>
   )
 }
