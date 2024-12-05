@@ -66,7 +66,7 @@ function Pokedex() {
         <div>
           <div className="pokedex_header">
             <p>
-              Bienvenido Entrenador <b>{name}</b>, aquí podrás encontrar tu Pokémon favorito.
+              Bienvenido Entrenador <b>{name}</b>,aquí podrás encontrar tu Pokémon favorito.
             </p>
           </div>
         </div>
