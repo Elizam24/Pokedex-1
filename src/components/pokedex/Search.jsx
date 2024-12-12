@@ -6,7 +6,7 @@ function Search (handleSearch) {
   const inputRef =useRef ()
 
   const onSearch = () => {
-    handleSearch(inputRef.current.value);
+    handleSearch(inputRef.current.value,);
   };
   
     return (
@@ -17,7 +17,7 @@ function Search (handleSearch) {
   ref= {inputRef}/>
   </div>
 
-    <button onClick={onSearch}
+    <button onSearch={onSearch}
     className="search_btn" >
       Buscar</button>
  </div>

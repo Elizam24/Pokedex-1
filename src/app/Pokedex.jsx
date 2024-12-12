@@ -30,7 +30,7 @@ function Pokedex() {
       setPokemonUrl(null);
       setPokemons('https://pokeapi.co/api/v2/pokemon');
     } else {
-      setPokemonUrl(`https://pokeapi.co/api/v2/pokemon/${value}`); // Corregido endpoint
+      setPokemonUrl(`https://pokeapi.co/api/v2/pokemon/${value}`); 
     }
   };
 
@@ -66,9 +66,11 @@ function Pokedex() {
         <div>
           <div className="pokedex_header">
             <p>
-              Bienvenido Entrenador <b>{name}</b>,aquí podrás encontrar tu Pokémon favorito.
-            </p>
-          </div>
+              Bienvenido Entrenador
+              </p>
+               <b>{name}</b>
+              <p>Aquí podrás encontrar tu Pokémon favorito</p>
+             </div>
         </div>
 
         {/* Barra de búsqueda y filtros */}

@@ -29,13 +29,13 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     gap: 20px;
-    /* background-image: url('/imagen-de-prueba.png'); */
+  /*   background-image: url('poke.png'); */
      
 }
 
 .buttons{
     display: flex;
-    gap: 1em;
+    gap: 2em;
     justify-content: center;
     align-items: center;
     margin-bottom: 2em;

@@ -32,9 +32,7 @@ function Home() {
 
   return (
     <div className="home">
-       <div className="cover"></div>
-         
-              
+        <div className ='home_image'>            
       <div className="home_content">
         {/* Título de la página */}
         <h2 className="home_title">
@@ -85,6 +83,8 @@ function Home() {
         </div>
       </div>
     </div>
+    </div>
+    
   );
 }
 
